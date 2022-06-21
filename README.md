@@ -2,7 +2,7 @@
 
 This project was generated with JavaScript
 
-Hosted on: https://ewertoncoutinho.github.io/whatismyviewport
+Hosted on: https://whatismyviewport.vercel.app
 
 ## Getting Started
 
