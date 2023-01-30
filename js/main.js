@@ -5,11 +5,11 @@ function resizeListener() {
 	const screenW = window.screen.width.toString()
 	const dpr = window.devicePixelRatio.toFixed(2)
 
-	document.querySelector('#height').textContent = height
-	document.querySelector('#width').textContent = width
-	document.querySelector('#screenH').textContent = screenH
-	document.querySelector('#screenW').textContent = screenW
-	document.querySelector('#dpr').textContent = dpr
+	document.getElementById('height').textContent = height
+	document.getElementById('width').textContent = width
+	document.getElementById('screenH').textContent = screenH
+	document.getElementById('screenW').textContent = screenW
+	document.getElementById('dpr').textContent = dpr
 }
 
 window.addEventListener('resize', resizeListener)
